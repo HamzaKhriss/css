@@ -1,0 +1,106 @@
+body {
+  background: url(pexel001.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Roboto';
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: rgba(51, 51, 51, 0);
+  overflow: hidden;
+}
+.nav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.main{
+  margin-top: 100px;
+  font-size: 40px;
+  display: flex;
+  justify-content:center;
+}
+
+.main h1{
+  color: white;
+}
+.container{
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.border{
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.card{
+  height: 379px;
+  width: 300px;
+  background : grey;
+  border-radius: 10px;
+  transition: 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0{
+  background: url('pexel1.jpg') center center no-repeat;
+  background-size: 300px;
+}
+.card0:hover{
+  background: url('pexel1.jpg') left center no-repeat;
+  background-size: 600px;
+}
+.card1{
+  background: url('pexel2.jpg') center center no-repeat;
+  background-size: 300px;
+}
+.card1:hover{
+  background: url('pexel2.jpg') left center no-repeat;
+  background-size: 600px;
+}
+.card2{
+  background: url('pexel3.jpg') center center no-repeat;
+  background-size: 300px;
+}
+.card2:hover{
+  background: url('pexel3.jpg') left center no-repeat;
+  background-size: 600px;
+}
+
+
+
+
+.h2{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
